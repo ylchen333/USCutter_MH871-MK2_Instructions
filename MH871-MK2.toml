@@ -1,0 +1,20 @@
+[device.MH871-MK2]
+name = "MH871-MK2"
+plotter_unit_length = "0.001in"
+pen_count = 1
+
+[[device.MH871-MK2.paper]]
+name = "MH871-MK2"
+
+paper_orientation = "portrait"
+
+origin_location = ["0in", "15in"]
+
+origin_location_reference = "topleft"
+
+# do not change the following
+y_range = [0, 30000]
+y_axis_up = true
+
+# change this if you want, will rotate the entire page including all geometries
+rotate_180 = false
