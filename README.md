@@ -85,13 +85,13 @@ This just hard codes "return to origin" in the HPGL.
 
 Some examples of what you do and don't want to see in InkScape:
 **DO**
-[X-AXIS-LENGTH = 152in, Y-AXIS-LENGTH = 24in (with 1.25in margins, along y-axis). Good config file with correct origin_location](./inkscape_example_correct.png)
+![X-AXIS-LENGTH = 152in, Y-AXIS-LENGTH = 24in (with 1.25in margins, along y-axis). Good config file with correct origin_location](./inkscape_example_correct.png)
 Things to check:
 - the y-axis ruler along the left side of InkScape can be changed to in by right/two-finger clicking on the ruler. Check that the y-axis length of the HPGL is less than 30 in. See that in the above example, our HPGL ranges from -10in to +13/14in, which aligns with the expected Y-AXIS-LENGTH = 24in. Also note that the plot doesn't start below the A4 paper's bottom edge or left of the A4 paper's left edge.
 
 **DON'T**
 
-[X-AXIS-LENGTH = 152in, Y-AXIS-LENGTH = 24in (with 1.25in margins, along y-axis). Bad config file with incorrect origin_location at [0in, 15in]](./inkscape_example_incorrect.png)
+![X-AXIS-LENGTH = 152in, Y-AXIS-LENGTH = 24in (with 1.25in margins, along y-axis). Bad config file with incorrect origin_location at [0in, 15in]](./inkscape_example_incorrect.png)
 
 
 ### Setting up the USCutter
